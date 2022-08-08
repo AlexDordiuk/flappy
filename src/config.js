@@ -17,9 +17,9 @@ export const config = {
     pixelArt: true,
     physics: {
         default: 'arcade',
-        arcade: {
-            debug: true
-        }
+        // arcade: {
+        //     debug: true
+        // }
     },
     scene: initScenes()
 }
