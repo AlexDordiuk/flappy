@@ -16,10 +16,7 @@ export const config = {
     ...SHARED_CONFIG,
     pixelArt: true,
     physics: {
-        default: 'arcade',
-        // arcade: {
-        //     debug: true
-        // }
+        default: 'arcade'
     },
     scene: initScenes()
 }
